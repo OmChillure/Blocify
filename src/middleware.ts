@@ -1,6 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unsafe-assignment */
-/* eslint-disable @typescript-eslint/no-unsafe-call */
-// middleware.ts
 import {
   clerkMiddleware,
   createRouteMatcher

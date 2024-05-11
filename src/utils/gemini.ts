@@ -3,10 +3,9 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import { GoogleGenerativeAI } from "@google/generative-ai"
 
-const apiKey = process.env.GEMINI_API_KEY! ;
+const apiKey = process.env.GEMINI_API_KEY!;
 
-const genAI = new GoogleGenerativeAI(
-  "");
+const genAI = new GoogleGenerativeAI(apiKey);
 
 export const textTotext =async (inp: string) =>{
   const model = genAI.getGenerativeModel({ model: "gemini-pro"});
