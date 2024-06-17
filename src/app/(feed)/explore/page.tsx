@@ -1,9 +1,10 @@
+import { Gallery } from '@/components/explore/gallery'
 import React from 'react'
 
 function Explore() {
   return (
-    <div className='h-[100vh] w-full flex justify-center items-center z-100'>
-      Explore
+    <div className='py-4 w-full flex justify-center items-center z-100'>
+      <Gallery/>
     </div>
   )
 }

@@ -23,7 +23,7 @@ function Post() {
             
             <p className="px-3 py-1 truncate">
         
-                    <p className='font-bold mb-1'>80 likes</p>
+                    <h1 className='font-bold mb-1'>80 likes</h1>
         
                 <span className='font-bold mr-1'>nigga</span>
                 link in bio
